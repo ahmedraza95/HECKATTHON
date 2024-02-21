@@ -2,7 +2,7 @@ a {
     text-decoration: none;
     color: rgb(255, 214, 214);
     margin: 2%;
-    font-size: 0.9rem ;
+    font-size: 16px ;
 }
 
 
@@ -56,11 +56,11 @@ header {
 .head1 {
     font-family:  'Shadows Into Light', cursive;
     letter-spacing: 1px;
-    font-size: 2rem;
+    font-size: 2%;
     color: hsl(28, 100%, 58%);
 }
 .head2 {
-    font-size: 5rem;
+    font-size: 500%;
     color: hsl(23, 61%, 86%);
     margin: 0;
     padding: 0;
@@ -261,7 +261,6 @@ padding: 3%;
 .form1 {
     width: 40%;
     height: 4vh;
-    border: ;
 }
 
 .div4 a {
@@ -281,4 +280,86 @@ button:hover {
     background-color: black;
     color: white;
     box-shadow: 0px 0px 20px white;
+}
+
+
+@media (min-width:768px) and (max-width:1280px) {
+    .content {
+        margin-right: 10%;
+    }
+    .headerbtn {
+        width: 22%;
+    }
+    .main1 span img {
+        width: 50%;
+    }
+
+    html {
+        font-size: 16px;
+    }
+    .head1 {
+        font-size: medium;
+    }
+    .head2 {
+        font-size: 3rem;
+    }
+    .head3 {
+        font-size: 1rem;
+    }
+    #mainbutton {
+        width: 15% !important;
+    }
+    .content {
+        width: 60%;
+    }
+    .images {
+        right: 0%;
+        top: 25%;
+    }
+    #burger {
+        width: 40%;
+        top: 15%;
+    }
+    * {
+        /* transition: 2s ease-in; */
+    }
+    .main1 {
+        height: 40vh !important;
+    }
+    .cards {
+        font-size: small;
+    }
+    .plater {
+        right: 8rem;
+        position: relative;
+        right: -10%;
+    }
+    .section2 {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 60%;
+        font-size: medium;
+    }
+
+    .sec2content {
+        margin-top: 2%;
+    }
+    #burger6 {
+        width: 40%;
+    }
+    #burger7   {
+        width: 20%;
+        left: 22%;
+        top: -15%;
+    }
+    .section22 {
+        top: 100%;
+        position: relative;
+    }
+    .card2 {
+        height: 60vh;
+    }
+
+    
 }
