@@ -1,0 +1,284 @@
+a {
+    text-decoration: none;
+    color: rgb(255, 214, 214);
+    margin: 2%;
+    font-size: 0.9rem ;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.positionimge {
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+}
+
+.logo {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 12%;
+    margin-top: 1.5%;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    /* overflow: hidden; */
+}
+
+.headerbtn {
+    width: 18%;
+    height: 4.5vh;
+    background-color: orange;
+    border: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    margin-right: 0%;
+    width: 50%;
+    margin-top: 1.5%;
+
+}
+
+.head1 {
+    font-family:  'Shadows Into Light', cursive;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    color: hsl(28, 100%, 58%);
+}
+.head2 {
+    font-size: 5rem;
+    color: hsl(23, 61%, 86%);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: 12%;
+    margin-top: 10%;
+    overflow: hidden;
+    height:38vh;
+}
+.main1 {
+    
+    height:60vh;
+}
+
+.head3 {
+    color: rgb(255, 161, 161);
+    font-size: x-large;
+}
+
+.images {
+    position: absolute;
+    top: 2.9rem;
+    right:0; 
+    z-index: -1;
+}
+
+#burger {
+    top: 16.5rem;
+    right: 8rem;
+    z-index: 1;
+}
+
+#shadow {
+    right: 2rem;
+}
+
+.section1 {
+    padding: 10%;
+    /* margin: 1%; */
+    background-color:hsl(38, 44%, 96%);
+    display: flex;
+    z-index: 1;
+
+}
+
+.cards {
+    background-color: white;
+    margin: 1%;
+    padding: 4%;
+    text-align: center;
+    height: 50vh;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.disc {
+    color: rgb(153, 109, 109);
+}
+
+.hover {
+    background-color: orange;
+    width: 160%;
+    right: 10%;
+    height: 60vh;
+    top: -4rem;
+    position: relative;
+    z-index: 0;
+    /* overflow: hidden; */
+    transform: rotate(45deg);
+}
+
+.section2 {
+    display: flex;
+    /* position: relative; */
+    justify-content: space-between;
+}
+
+.img4 {
+    position: absolute;
+    /* left: -4%; */
+    z-index: -1;
+}
+
+.sec2content {
+    letter-spacing: -1px;
+    color: white;
+    margin-left: 12%;
+    margin-top: 15%;
+}
+
+.sec2burger {
+    margin-top: 5%;
+    margin-right: 1rem;
+    position: relative;
+}
+
+.burger1 {
+    position: relative;
+    /* top: -15rem; */
+    /* margin-right: 2rem; */
+    z-index: -1;
+}
+
+.sale {
+    position: absolute;
+    top: 1;
+    right: 30rem;
+    z-index: 1;
+}
+
+.background {
+    background-color: hsl(38, 44%, 96%);
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* justify-content: center; */
+
+}
+
+.card2 {
+    width: 23%;
+    margin: 1%;
+    height: 50vh;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h61 {
+    margin-left: rem;
+}
+
+.text {
+    text-align: left;
+}
+
+.contactsec3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6%;
+}
+
+.footer {
+    position:relative;
+    top: 20rem;
+    z-index: -1;
+    
+}
+
+#footer {
+    height: 60vh;
+    width: 100%;
+}
+
+.sec4 {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    height: 50vh;
+    z-index: -2;
+}
+
+.divs {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    top: -20rem;
+    padding: 8%;
+    color: rgb(105, 105, 105);
+}
+
+.div4 {
+    width: 25%;
+    text-align: left;
+
+}
+
+.socialicons {
+    width: 10%;
+    height: 3vh;
+    background-color: orange;
+    border: none;
+}
+
+.form {
+padding: 3%;
+    border: 1px solid rgb(151, 110, 110);
+    top: -5rem;
+    position: relative;
+}
+.form1 {
+    width: 40%;
+    height: 4vh;
+    border: ;
+}
+
+.div4 a {
+    color: rgb(105, 105, 105);
+}
+
+.footer1 {
+    position: relative;
+    top: 3rem;
+}
+
+body {
+    height: 40vh;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 20px white;
+}
